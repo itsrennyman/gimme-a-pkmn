@@ -1,0 +1,20 @@
+{
+  "name": "gimme-a-pkmn",
+  "private": false,
+  "version": "0.0.1",
+  "description": "A function to get a random pokemon name",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gimme",
+    "a",
+    "pokemon"
+  ],
+  "author": "Renato <renato.pozzi.dev@gmail.com> (https://renatopozzi.me/)",
+  "license": "MIT"
+}
