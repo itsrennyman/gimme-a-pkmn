@@ -1,18 +1,16 @@
-module.exports = {
-  gimmeAPokemon: () => {
-    const pokemon = [
-      "Pichu",
-      "Pikachu",
-      "Raichu",
-      "Sandshrew",
-      "Sandslash",
-      "Nidorina",
-      "Nidoking",
-      "Clefairy",
-      "Clefable",
-      "Vulpix",
-    ];
+export const gimmeAPokemon = () => {
+  const pokemon = [
+    "Pichu",
+    "Pikachu",
+    "Raichu",
+    "Sandshrew",
+    "Sandslash",
+    "Nidorina",
+    "Nidoking",
+    "Clefairy",
+    "Clefable",
+    "Vulpix",
+  ];
 
-    return pokemon[Math.floor(Math.random() * pokemon.length)];
-  },
+  return pokemon[Math.floor(Math.random() * pokemon.length)];
 };
