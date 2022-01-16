@@ -3,11 +3,12 @@
   "private": false,
   "version": "0.0.1",
   "description": "A function to get a random pokemon name",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
-    "index.js"
+    "dist"
   ],
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,5 +17,10 @@
     "pokemon"
   ],
   "author": "Renato <renato.pozzi.dev@gmail.com> (https://renatopozzi.me/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "7.16.8",
+    "@rollup/plugin-babel": "5.3.0",
+    "rollup": "2.64.0"
+  }
 }
