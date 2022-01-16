@@ -1,7 +1,7 @@
 {
   "name": "gimme-a-pkmn",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A function to get a random pokemon name",
   "main": "dist/index.js",
   "files": [
